@@ -1,0 +1,17 @@
+[project]
+name = "notebooks"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "accelerate>=1.9.0",
+    "fastparquet>=2024.11.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.5",
+    "numpy>=2.2.6",
+    "pandas>=2.3.1",
+    "pyarrow>=21.0.0",
+    "torch>=2.8.0",
+    "transformers>=4.55.0",
+]
