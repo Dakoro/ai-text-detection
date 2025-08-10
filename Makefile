@@ -1,2 +1,2 @@
 clean:
-	rm -f data/checkpoint
+	rm -f data/checkpoint/*.*
