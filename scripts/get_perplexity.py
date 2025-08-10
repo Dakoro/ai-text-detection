@@ -143,3 +143,7 @@ if __name__ == '__main__':
                 filename = f'perplexity_{idx}'
                 save_checkpoint(filename, perplexity_list)
                 print(f"{filename} created")
+                
+    df['perplexity'] = perplexity_list
+    output_path = os.path.join("data", 'clean_data.parquet')
+    df.to_parquet(output_path, engine='fastparquet')
