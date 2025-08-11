@@ -7,6 +7,7 @@ requires-python = ">=3.10"
 dependencies = [
     "accelerate>=1.9.0",
     "fastparquet>=2024.11.0",
+    "huggingface-hub[cli]>=0.34.3",
     "jupyter>=1.1.1",
     "matplotlib>=3.10.5",
     "numpy>=2.2.6",
