@@ -17,6 +17,7 @@ RUN uv remove jupyter
 
 # Set default port
 ENV PORT=8000
+ARG HF_TOKEN
 ENV HF_TOKEN=${HF_TOKEN}
 
 # Expose the port
